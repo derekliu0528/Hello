@@ -1,1 +1,1 @@
-web: Run --env=production --port=$PORT
+web: bundle exec rails server -p $PORT
